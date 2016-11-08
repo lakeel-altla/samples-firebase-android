@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">firebase-invite</string>
+
+    <string name="button_invite">Invite</string>
+</resources>
