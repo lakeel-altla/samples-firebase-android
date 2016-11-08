@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">firebase-remote-config</string>
+
+    <string name="fetch_remote_price">fetch remote price</string>
+</resources>
