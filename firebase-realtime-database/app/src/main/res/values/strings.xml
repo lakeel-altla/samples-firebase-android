@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">firebase-realtime-database</string>
+
+    <string name="button_add">Add</string>
+    <string name="button_find">Find</string>
+    <string name="button_update">Update</string>
+    <string name="button_remove">Remove</string>
+</resources>
