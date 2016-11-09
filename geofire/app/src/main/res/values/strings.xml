@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">geofire</string>
+
+    <string name="button_add">Add</string>
+    <string name="button_remove">Remove</string>
+    <string name="button_search">Search</string>
+</resources>
