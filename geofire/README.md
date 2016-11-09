@@ -15,20 +15,17 @@ If you just download this sample application, the build fail.
 
 You need to create a Firebase project, and download a ```google-services.json``` flie.  
 After downloading the ```google-services.json```, copy this into your project's module folder, typically ```app/```.  
-And, you must add SHA-1 fingerprint to use Geofire.
+
+And, you must add SHA-1 fingerprint of your application to Firebase.
 
 [How to add Firebase to your Android Project](https://firebase.google.com/docs/android/setup#add_firebase_to_your_app)
 
 # Getting Started
 
-1. Add locations
-
+1. Add locations  
 When you click the add button, the location is stored in the Firebase.
 
-2. Remove added locations
-
+1. Remove added locations  
 When you click the remove button, the added location is removed from the Firebase.
-
-3. Search added locations
-
+3. Search added locations  
 When you click the search button, search the location that saved in the Firebase.

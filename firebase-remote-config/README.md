@@ -9,23 +9,25 @@ Your app controls when updates are applied, and it can frequently check for upda
 # Required
 
 You need to create a Firebase project, and download a ```google-services.json``` flie.
-After downloading the ```google-services.json```, copy this into your project's module folder, typically ```app/```.
+After downloading the ```google-services.json```, copy this into your project's module folder, typically ```app/```.  
 
-[How to add Firebase to your Android Project](https://firebase.google.com/docs/android/setup)
+And, you must add SHA-1 fingerprint of your application to Firebase.
+
+[How to add Firebase to your Android Project](https://firebase.google.com/docs/android/setup#add_firebase_to_your_app)
 
 # Getting Started
 
-1. Launch this sample app 
+1. Launch this sample app  
 After launching this sample app, the screen will be displayed.  
 When you click the button on the screen, you will see a "Your price is $ 100".
 
-1. Open your firebase project
+1. Open your firebase project  
 In order to confirm this sample app, you need to open your firebase project.
 
-1. Open Remote Config menu
+1. Open Remote Config menu  
 Open the Remote Config of the left of the menu.
 
-1. Add config parameters
+1. Add config parameters  
 Please add below parameters.
 
 | Parameter Key | Default Value | Notes: |

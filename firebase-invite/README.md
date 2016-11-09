@@ -17,9 +17,10 @@ You can not confirm the installation.
 You need to create a Firebase project, and download a ```google-services.json``` flie.  
 After downloading the ```google-services.json```, copy this into your project's module folder, typically ```app/```.  
 
-And, you must add SHA-1 fingerprint to use Firebase Invites.
+And, you must add SHA-1 fingerprint of your application to Firebase.
 
-[How to add Firebase to your Android Project](https://firebase.google.com/docs/android/setup)
+[How to add Firebase to your Android Project](https://firebase.google.com/docs/android/setup#add_firebase_to_your_app)
+
 
 # Getting Started
 
