@@ -42,7 +42,8 @@ Be sure to re-download your google-services.json from a primary Firebase project
 This sample app needs to initial settings values.
 You must create gradle.properties and set values into it.
 
-```{project-root}/gradle.properties
+
+```firebase-custom-authentication/gradle.properties
 
 PRIMARY_FIREBASE_DB_URL = "xxx"
 SECONDARY_GOOGLE_PROJECT_API_KEY = "xxx"
@@ -53,32 +54,33 @@ CUSTOM_AUTH_SERVER_URL = "xxx"
 
 ```
 
-- PRIMARY_FIREBASE_DB_URL
+
++ PRIMARY_FIREBASE_DB_URL
 
 This is primary Firebase database url.
 
-- SECONDARY_GOOGLE_PROJECT_API_KEY
++ SECONDARY_GOOGLE_PROJECT_API_KEY
 
 This is an Android API key of the secondary Google project.
 
-- SECONDARY_FIREBASE_APPLICATION_ID
++ SECONDARY_FIREBASE_APPLICATION_ID
 
 This is an application id that registered secondary Firebase project.
 
 ![App ID](./doc/app_data.png)
 
-- SECONDARY_FIREBASE_DB_URL
++ SECONDARY_FIREBASE_DB_URL
 
 This is secondary Firebase database url.
 For example, "https://yyy.firebaseio.com/".
 
-- SECONDARY_FIREBASE_APP_NAME
++ SECONDARY_FIREBASE_APP_NAME
 
 This is an app name that registered secondary Firebase project.
 
 ![App name](./doc/app_data.png)
 
-- CUSTOM_AUTH_SERVER_URL
++ CUSTOM_AUTH_SERVER_URL
 
 This sample app connect to the custom authentication server. So, you need to deploy the custom authentication server.
 This is request url of the custom authentication server.
