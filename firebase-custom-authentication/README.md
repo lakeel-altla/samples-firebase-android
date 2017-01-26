@@ -52,6 +52,7 @@ SECONDARY_FIREBASE_APP_NAME = "xxx"
 CUSTOM_AUTH_SERVER_URL = "xxx"
 
 ```
+
 - PRIMARY_FIREBASE_DB_URL
 
 This is primary Firebase database url.
