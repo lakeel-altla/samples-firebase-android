@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">firebase-custom-authentication</string>
+
+    <string name="title_sign_in">Sign in</string>
+    <string name="title_main">Main</string>
+
+    <string name="button_find">Find</string>
+    <string name="button_add">Add</string>
+    <string name="button_remove">Remove</string>
+
+    <string name="message_added">Added.</string>
+    <string name="message_removed">Removed.</string>
+
+    <string name="textView_default_firebase">Default Firebase</string>
+    <string name="textView_other_firebase">Other Firebase</string>
+    <string name="textView_user_not_found">User not found.</string>
+    <string name="textView_beacon_not_found">Beacon not found.</string>
+
+</resources>
