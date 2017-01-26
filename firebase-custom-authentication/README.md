@@ -57,19 +57,15 @@ This is primary Firebase database url.
 This is an Android API key of the secondary Google project.
 
 + SECONDARY_FIREBASE_APPLICATION_ID  
-This is an application id that registered secondary Firebase project.
-<br>
-<br>
-![App ID](./doc/app_data.png)
+This is an application id that registered secondary Firebase project.  
+You can see the application ID on the Firebase project settings screen.
 
 + SECONDARY_FIREBASE_DB_URL  
 This is secondary Firebase database url.
 
 + SECONDARY_FIREBASE_APP_NAME  
-This is an app name that registered secondary Firebase project.
-<br>
-<br>
-![App name](./doc/app_data.png)
+This is an app name that registered secondary Firebase project.  
+You can see the app name on the Firebase project settings screen.  
 
 + CUSTOM_AUTH_SERVER_URL  
 This sample app connect to the custom authentication server. So, you need to deploy the custom authentication server.  
