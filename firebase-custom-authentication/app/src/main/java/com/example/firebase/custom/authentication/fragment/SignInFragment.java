@@ -112,6 +112,7 @@ public final class SignInFragment extends Fragment implements GoogleApiClient.On
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 if (user != null) {
                     user.getToken(false).addOnSuccessListener(result1 -> {
+                        // Get a token from the primary Firebase.
                         final String token = result1.getToken();
                         Log.d(TAG, "Token:" + token);
 
@@ -161,14 +162,14 @@ public final class SignInFragment extends Fragment implements GoogleApiClient.On
         FirebaseOptions options = new FirebaseOptions.Builder()
                 // Required for Analytics.
                 .setApplicationId(SECONDARY_FIREBASE_APPLICATION_ID)
-                // Required for Auth.
+                // Required for Authentication.
                 .setApiKey(SECONDARY_GOOGLE_PROJECT_API_KEY)
                 // Required for Realtime Database.
                 .setDatabaseUrl(SECONDARY_FIREBASE_DB_URL)
                 .build();
         FirebaseApp.initializeApp(getActivity(), options, SECONDARY_FIREBASE_APP_NAME);
 
-        // Sign in with secondary Firebase project.
+        // Sign in with the secondary Firebase.
         FirebaseApp secondaryApp = FirebaseApp.getInstance(SECONDARY_FIREBASE_APP_NAME);
         FirebaseAuth.getInstance(secondaryApp).signInWithCustomToken(customToken)
                 .addOnSuccessListener(result);
