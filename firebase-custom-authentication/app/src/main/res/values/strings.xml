@@ -11,8 +11,8 @@
     <string name="message_added">Added.</string>
     <string name="message_removed">Removed.</string>
 
-    <string name="textView_default_firebase">Default Firebase</string>
-    <string name="textView_other_firebase">Other Firebase</string>
+    <string name="textView_primary_firebase">Primary Firebase</string>
+    <string name="textView_secondary_firebase">Secondary Firebase</string>
     <string name="textView_user_not_found">User not found.</string>
     <string name="textView_beacon_not_found">Beacon not found.</string>
 
