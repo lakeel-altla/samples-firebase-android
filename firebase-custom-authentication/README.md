@@ -31,6 +31,9 @@ Next, back in the both Firebase projects, white list the client ID you just set 
 ![Add white list](./doc/add_whitelist.png)
 <br>
 <br>
+![Add white list](./doc/add_whitelist1.png)
+<br>
+<br>
 Be sure to re-download your google-services.json from a primary Firebase project and add it to your Android app.
 
 1. Set up gradle.properties  
